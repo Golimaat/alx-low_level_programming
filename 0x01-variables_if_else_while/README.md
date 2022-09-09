@@ -1,1 +1,1 @@
-Project for variables ,if ,else and while
+Project of variables , if , else and while
