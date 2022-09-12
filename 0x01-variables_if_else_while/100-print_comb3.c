@@ -8,12 +8,12 @@
 * You can onlu use `putchar`
 * you can onlu use `putchar` up to 5 times.
 * you are not allowed to use any variables of type `char`.
-* Return :0
+* Return:0
 */
 int main(void)
 {
 	int i, j, k;
-
+        
 	i = 0;
 	while (i < 100)
 	{
