@@ -14,27 +14,29 @@
 */
 int main(void)
 {
-	int i, j, k, l;
+	int i, j, k;
 
-	for (i = 0; i < 1000; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		j = i / 100;   /* hundreds */
-		k = (i / 10) % 10;  /*tens */
-		l = i % 10;    /* singles */
-
-		if (j < k && k < 1)
+		for (j = '0'; j <= '9'; j++)
 		{
-			putchar(j + '0');
-			putchar(k + '0');
-			putchar(l + '0');
-
-			if (i < 700)
+			for (k = '0'; k <= '9'; k++)
 			{
-				putchar(44);
-				putchar(32);
+				if (i < j && j < k)
+				{
+					putchar(i);
+					putchar(j);
+					putchar(k);
+
+					if (i != '7')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
-	}
 	putchar('\n');
+
 	return (0);
 }
