@@ -2,7 +2,7 @@
 /**
 * main - Entry point
 *
-* Review: nothingreturn void
+* Return: 0
 */
 int main(void)
 {
