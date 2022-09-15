@@ -1,10 +1,11 @@
 #include "main.h"
-/**
- * print_alphabe_x10 - prints the lowercase alphabets
- *
- * Return: 0
- */
 
+/**
+ * print_alphabet_x10 - prints the lowercase alphabets
+ * prints all alphabets
+ *
+ * Return: Always 0
+ */
 void print_alphabet_x10(void)
 {
 	int i;
