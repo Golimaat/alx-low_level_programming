@@ -1,2 +1,2 @@
-Even more pointers, arrays and strings.
+Project on C - pointer to pointer and multi-dimensional Arrays.
 
