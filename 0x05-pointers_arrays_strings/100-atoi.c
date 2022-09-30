@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * _isdigit - checks if character is a digit
  * @s: the character to check
@@ -15,22 +13,31 @@ int _isdigit(char s)
  * _atoi - converts string to integer
  * @s: the string
  *
- * Return: integer  value of string
+ * Return: integer value of string
  */
 int _atoi(char *s)
 {
-	int sign = 1;
-	unsigned int num = 0;
+	int i = 0, neg = 0, d;
+	int num = 0;
 
-	do {
-		if (*s == '-')
-			sign *= -1;
-		else if
-			(*s >= '0' && *s <= '9')
-			num = (num * 10) + (*s - '0');
-		else if (num > 0)
+	while (s[i])
+	{
+		if (s[i] == '-')
+		{
+			neg++;
+		}
+		else if (_isdigit(s[i]))
+		{
+			while (_isdigit(s[i]))
+			{
+				d = (s[i] - '0');
+				d = neg % 2 ? -d : d;
+				num = num * 10 + d;
+				i++;
+			}
 			break;
-	} while (*s++);
-
-	return (num * sign);
+		}
+		i++;
+	}
+	return (num);
 }
