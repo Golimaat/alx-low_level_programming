@@ -1,6 +1,6 @@
 0x0D. C -Preprocessor
 
-<img src="https://miro.medium.com/max/1400/1*WG-1jZy1gZfawd0sZdKLSA.gif" width = 50%>
+<img src="https://miro.medium.com/max/1400/1*WG-1jZy1gZfawd0sZdKLSA.gif" width = 300>
  
  Description:
 
