@@ -18,9 +18,12 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(valist, n);
 
 	for (i = 0; i < n; i++)
-		sum += va_arg(valist, int);
-
+		printf("%d", var_arg(nums, int));
+		if (index != (n - 1) && separator != NULL)
+			printf("%s", separator;
+	
+	printf("\n");
 	va_end(valist);
 
-	return (sum);
+	
 }
