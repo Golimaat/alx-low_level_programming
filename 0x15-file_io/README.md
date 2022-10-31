@@ -1,5 +1,6 @@
 <a href="https://alx-intranet.hbtn.io/projects/234">0x15. C - File I/O </a>
 
+<img src ="https://i.ytimg.com/vi/z2fz4cu0i1o/maxresdefault.jpg" width = 500>
 DESCRIPTION:
 
 *  Look for the right source of information online 
