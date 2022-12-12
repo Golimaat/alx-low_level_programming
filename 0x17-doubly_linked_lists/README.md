@@ -1,6 +1,6 @@
 <h1>0x17. C - Doubly linked lists</h1>>
 <hr>
-<img src="https://i.ytimg.com/vi/UxhIX4OdHZ8/maxresdefault.jpg" width="50%>
+<img src="https://images.slideplayer.com/16/5239707/slides/slide_4.jpg" width="50%">
 <hr>
 <h3>Description</h3>
  * What is a doubly linked list
